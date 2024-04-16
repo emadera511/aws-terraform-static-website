@@ -48,4 +48,6 @@ resource "aws_s3_bucket" "my_s3_bucket" {
 }
 ```
 
-Next 
+Using terraform you can make a bucket public, assign ACL, make ownership of the bucket and upload files into the bucket all through terraform.  
+
+We can then use github actions to deploy as CI/CD.  
